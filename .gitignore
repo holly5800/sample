@@ -1,0 +1,7 @@
+*.iml
+.idea*
+*.swp
+
+target/*
+
+src/main/html/js/lib/*
