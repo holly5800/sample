@@ -35,10 +35,11 @@
                         <phase>generate-sources</phase>
                         <goals>
                             <goal>import</goal>
-                            <goal>depswriter</goal>
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                </configuration>
             </plugin>
         </plugins>
     </build>
