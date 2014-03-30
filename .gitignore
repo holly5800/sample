@@ -5,3 +5,4 @@
 target/*
 
 src/main/html/js/lib/*
+src/main/html/js/deps.js
