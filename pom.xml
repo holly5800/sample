@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>js-maven-plugin-test</groupId>
-    <artifactId>js-maven-plugin-test</artifactId>
+    <artifactId>closure-maven-plugin-test</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <name>Closure Maven Plugin Sample Usage</name>
 
     <dependencies>
         <dependency>
@@ -28,7 +29,7 @@
         <plugins>
             <plugin>
                 <groupId>com.poreomix</groupId>
-                <artifactId>js-maven-plugin</artifactId>
+                <artifactId>closure-maven-plugin</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
                 <executions>
                     <execution>
