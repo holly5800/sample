@@ -46,7 +46,7 @@
                             <goal>dependency-writer</goal>
                         </goals>
                         <configuration>
-                            <inputs>src/main/html/js/goog/a11y</inputs>
+                            <inputs>src/main/html/js/goog/array/array.js</inputs>
                             <roots>src/main/html/js/goog</roots>
                             <outputFile>src/main/html/js/deps.js</outputFile>
                         </configuration>
