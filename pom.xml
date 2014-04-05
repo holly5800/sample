@@ -4,26 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>js-maven-plugin-test</groupId>
-    <artifactId>closure-maven-plugin-test</artifactId>
+    <groupId>closure</groupId>
+    <artifactId>sample</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Closure Maven Plugin Sample Usage</name>
+    <name>Sample</name>
 
     <dependencies>
         <dependency>
-            <groupId>com.google.closure-library</groupId>
-            <artifactId>closure-library</artifactId>
+            <groupId>closure</groupId>
+            <artifactId>goog</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>google-closure.com</id>
-            <url>http://google-closure.com/artifact</url>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
