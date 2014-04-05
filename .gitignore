@@ -4,5 +4,5 @@
 
 target/*
 
-src/main/html/js/lib/*
-src/main/html/js/deps.js
+src/main/webapp/goog
+src/main/webapp/deps.js

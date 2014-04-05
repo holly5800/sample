@@ -32,18 +32,6 @@
                             <goal>war-extractor</goal>
                         </goals>
                     </execution>
-                    <execution>
-                        <id>generate-dependent-js</id>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>dependency-writer</goal>
-                        </goals>
-                        <configuration>
-                            <inputs>src/main/html/js/goog/array/array.js</inputs>
-                            <roots>src/main/html/js/goog</roots>
-                            <outputFile>src/main/html/js/deps.js</outputFile>
-                        </configuration>
-                    </execution>
                 </executions>
             </plugin>
             <plugin>
